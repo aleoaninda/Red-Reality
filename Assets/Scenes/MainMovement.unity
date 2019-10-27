@@ -2403,6 +2403,7 @@ GameObject:
   - component: {fileID: 58487707}
   - component: {fileID: 58487706}
   - component: {fileID: 58487705}
+  - component: {fileID: 58487708}
   m_Layer: 0
   m_Name: 1
   m_TagString: Interobject
@@ -2502,6 +2503,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &58487708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58487703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &63711840
 GameObject:
   m_ObjectHideFlags: 0
@@ -18676,6 +18689,7 @@ GameObject:
   - component: {fileID: 601580220}
   - component: {fileID: 601580219}
   - component: {fileID: 601580221}
+  - component: {fileID: 601580222}
   m_Layer: 0
   m_Name: stamina_potion
   m_TagString: StaminaPotion
@@ -18772,6 +18786,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &601580222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601580218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &618060174
 GameObject:
   m_ObjectHideFlags: 0
@@ -23670,6 +23696,7 @@ GameObject:
   - component: {fileID: 765173780}
   - component: {fileID: 765173779}
   - component: {fileID: 765173778}
+  - component: {fileID: 765173781}
   m_Layer: 0
   m_Name: 4
   m_TagString: Interobject
@@ -23769,6 +23796,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &765173781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765173776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &775910451
 GameObject:
   m_ObjectHideFlags: 0
@@ -35306,6 +35345,7 @@ GameObject:
   - component: {fileID: 1210529032}
   - component: {fileID: 1210529031}
   - component: {fileID: 1210529030}
+  - component: {fileID: 1210529033}
   m_Layer: 0
   m_Name: 6
   m_TagString: Interobject
@@ -35405,6 +35445,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1210529033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210529028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1210680532
 GameObject:
   m_ObjectHideFlags: 0
@@ -45091,6 +45143,7 @@ GameObject:
   - component: {fileID: 1558157846}
   - component: {fileID: 1558157845}
   - component: {fileID: 1558157844}
+  - component: {fileID: 1558157847}
   m_Layer: 0
   m_Name: 7
   m_TagString: Interobject
@@ -45190,6 +45243,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1558157847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558157842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1560439425
 GameObject:
   m_ObjectHideFlags: 0
@@ -45932,6 +45997,7 @@ GameObject:
   - component: {fileID: 1577522165}
   - component: {fileID: 1577522166}
   - component: {fileID: 1577522167}
+  - component: {fileID: 1577522168}
   m_Layer: 0
   m_Name: 0
   m_TagString: Interobject
@@ -46031,6 +46097,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: 1
+--- !u!114 &1577522168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577522163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1579683942
 GameObject:
   m_ObjectHideFlags: 0
@@ -52511,6 +52589,7 @@ GameObject:
   - component: {fileID: 1783399347}
   - component: {fileID: 1783399346}
   - component: {fileID: 1783399345}
+  - component: {fileID: 1783399348}
   m_Layer: 0
   m_Name: 5
   m_TagString: Interobject
@@ -52610,6 +52689,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1783399348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783399343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1785659263
 GameObject:
   m_ObjectHideFlags: 0
@@ -55579,6 +55670,7 @@ GameObject:
   - component: {fileID: 1886998138}
   - component: {fileID: 1886998137}
   - component: {fileID: 1886998136}
+  - component: {fileID: 1886998139}
   m_Layer: 0
   m_Name: 2
   m_TagString: Interobject
@@ -55678,6 +55770,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1886998139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886998134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1891783699
 GameObject:
   m_ObjectHideFlags: 0
@@ -57961,6 +58065,7 @@ GameObject:
   - component: {fileID: 1972259749}
   - component: {fileID: 1972259748}
   - component: {fileID: 1972259747}
+  - component: {fileID: 1972259750}
   m_Layer: 0
   m_Name: 3
   m_TagString: Interobject
@@ -58060,6 +58165,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1972259750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972259745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dea77f39ba8024ca76b395336a5cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1978130055
 GameObject:
   m_ObjectHideFlags: 0
