@@ -59,6 +59,6 @@ public class player_movement : MonoBehaviour
     private void FixedUpdate()
 	{
         rb.MovePosition(rb.position + movement * (movespeed) * Time.fixedDeltaTime);
-        Debug.Log("Stamina: " + stamina);
+        //Debug.Log("Stamina: " + stamina);
     }
 }
