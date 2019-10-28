@@ -7,8 +7,15 @@ public class PlayerInteract : MonoBehaviour
 
 	public GameObject currentInterobj = null;
 	public InteractionObject currentInterobjScript = null;
-	public Inventory inventory;
-	private void Update()
+    Inventory inventory;
+
+    private void Start()
+    {
+        // Added by Tom to ensure that Inventory Component is automatically found
+        inventory = GameObject.Find("player").GetComponent<Inventory>();
+}
+
+    private void Update()
 	{
 		if (Input.GetButtonDown ("Interact")&& currentInterobj)
 		{
