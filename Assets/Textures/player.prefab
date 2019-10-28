@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7081073043842044301}
   - component: {fileID: 7081073043842044302}
   - component: {fileID: 7081073043842044303}
+  - component: {fileID: 2851468439318627133}
   - component: {fileID: 7081073043842044296}
   - component: {fileID: 7081073043842044297}
   - component: {fileID: 7081073043842044298}
@@ -105,6 +106,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2851468439318627133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7081073043842044341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d8d15a75f1d7c4ca7afb12086f0988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentInterobj: {fileID: 0}
+  currentInterobjScript: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!114 &7081073043842044296
 MonoBehaviour:
   m_ObjectHideFlags: 0

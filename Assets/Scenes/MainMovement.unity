@@ -2492,7 +2492,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b09cd6e56b058147b68606b62b6d76f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2250f1ba402c22b48850607b1cff636d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10708,6 +10708,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &363963654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7081073043842044341, guid: 5eda25cdbeb6eff48891c5eaa863d78b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6263895013415683767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &363963655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363963654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af058d9e6a29ba64d8d93066f0dfda7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  InventoryButtons:
+  - {fileID: 1322375514}
+  - {fileID: 1100622343}
+  - {fileID: 787653761}
+  - {fileID: 306171795}
+  - {fileID: 384895639}
+  - {fileID: 650489879}
+  - {fileID: 1542781737}
+  - {fileID: 584129102}
+  - {fileID: 1612519533}
+  - {fileID: 1879771218}
+  inventoryUI: {fileID: 21878003}
+--- !u!114 &363963660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363963654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a9130425fbb848cf9d8af1f83b4e520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keypadUI: {fileID: 1697762211}
 --- !u!1 &365800140
 GameObject:
   m_ObjectHideFlags: 0
@@ -23785,7 +23839,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b09cd6e56b058147b68606b62b6d76f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2250f1ba402c22b48850607b1cff636d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -35434,7 +35488,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b09cd6e56b058147b68606b62b6d76f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2250f1ba402c22b48850607b1cff636d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -45232,7 +45286,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b09cd6e56b058147b68606b62b6d76f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2250f1ba402c22b48850607b1cff636d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -46057,7 +46111,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b09cd6e56b058147b68606b62b6d76f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2250f1ba402c22b48850607b1cff636d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -52678,7 +52732,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b09cd6e56b058147b68606b62b6d76f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2250f1ba402c22b48850607b1cff636d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -55759,7 +55813,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b09cd6e56b058147b68606b62b6d76f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2250f1ba402c22b48850607b1cff636d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -58154,7 +58208,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b09cd6e56b058147b68606b62b6d76f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2250f1ba402c22b48850607b1cff636d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -63769,5 +63823,10 @@ PrefabInstance:
       propertyPath: keypadUI
       value: 
       objectReference: {fileID: 1697762211}
+    - target: {fileID: 2851468439318627133, guid: 5eda25cdbeb6eff48891c5eaa863d78b,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 363963655}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5eda25cdbeb6eff48891c5eaa863d78b, type: 3}
