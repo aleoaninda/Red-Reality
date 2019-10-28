@@ -35296,7 +35296,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.4}
+  m_Offset: {x: -0.00000035762787, y: 0.84753084}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -35307,7 +35307,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.2401295, y: 3.4187899}
+  m_Size: {x: 2.085213, y: 2.5237284}
   m_EdgeRadius: 0
 --- !u!114 &1202899143
 MonoBehaviour:
@@ -44004,12 +44004,12 @@ PrefabInstance:
     - target: {fileID: 6027131915411703252, guid: 748b404607082e349acb30c6ee49433b,
         type: 3}
       propertyPath: m_Name
-      value: Keypad Panel
+      value: KeypadPanel
       objectReference: {fileID: 0}
     - target: {fileID: 6027131915411703252, guid: 748b404607082e349acb30c6ee49433b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6027131915411703249, guid: 748b404607082e349acb30c6ee49433b,
         type: 3}
@@ -49255,8 +49255,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1486905167
+  m_SortingLayer: 1
   m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -63649,6 +63649,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7081073043842044341, guid: 5eda25cdbeb6eff48891c5eaa863d78b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6263895013392676824, guid: 5eda25cdbeb6eff48891c5eaa863d78b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -63773,7 +63778,7 @@ PrefabInstance:
         type: 3}
       propertyPath: inventory
       value: 
-      objectReference: {fileID: 6263895013415683769}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5eda25cdbeb6eff48891c5eaa863d78b, type: 3}
 --- !u!1 &6263895013415683768 stripped
@@ -63830,3 +63835,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keypadUI: {fileID: 1697762211}
+  player: {fileID: 0}
