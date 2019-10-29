@@ -30953,7 +30953,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1412591346}
-        m_MethodName: SwitchShowHide
+        m_MethodName: Gameplayoption
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
