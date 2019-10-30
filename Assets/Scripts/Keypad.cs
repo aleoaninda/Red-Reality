@@ -15,7 +15,7 @@ public class Keypad : MonoBehaviour
 
     void Update()
 	{
-        if (Mathf.Abs(player.transform.localPosition.y) < 3 || Mathf.Abs(player.transform.localPosition.x) < 3) { 
+        if (Mathf.Abs(player.transform.localPosition.y) < 2.5 && Mathf.Abs(player.transform.localPosition.x) < 2.5) { 
 		    if (Input.GetButtonDown("Keypad"))
 		    {
 		    	keypadUI.SetActive(!keypadUI.activeSelf);
