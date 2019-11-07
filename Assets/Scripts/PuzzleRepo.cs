@@ -78,4 +78,13 @@ public class PuzzleRepo : MonoBehaviour
         }
         return true;
     }
+
+    public static bool AllPuzzleSolved() {
+        for (int i = 0; i < solved.Length; i++) {
+            if (solved[i] == false) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
