@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMovement.unity
     guid: 864088ec444e3754489273964bfe407b
+  - enabled: 1
+    path: Assets/Scenes/LabRoom.unity
+    guid: def615957b7f2bc41be2f79023d5ce1f
   m_configObjects: {}
