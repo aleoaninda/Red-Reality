@@ -7,7 +7,6 @@ TagManager:
   - StaminaPotion
   - LightPotionExample
   - Interobject
-  - pause
   layers:
   - Default
   - TransparentFX
