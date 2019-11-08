@@ -5,7 +5,7 @@ using UnityEngine;
 public class SafeZoneController : MonoBehaviour
 {
     //public float expansionSpeed;
-    Vector2 futureSafeZoneSize;
+    public Vector2 futureSafeZoneSize;
     int iter = 0;
     int limit = 250;
     //public float decimalInitialSize = 0.2f;
@@ -87,4 +87,6 @@ public class SafeZoneController : MonoBehaviour
         safeZoneState = 1;
         iter = 0;
     }
+
+    
 }
