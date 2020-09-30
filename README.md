@@ -1,4 +1,4 @@
-Introduction
+Game Introduction
 
 Welcome to Red Reality, a top down 2D horror(!) puzzle game. In this game, you are trapped in an alternate reality where it’s devoid of everything except for you, the machine and some mysterious log entries. These log entries tell you the story of a missing scientist called Dr. Robert Scranton, who accidently got trapped in this reality. You need to read the log entries to find hints that will allow you solve the numerical puzzle embedded within the machine. Upon solving all the puzzles correctly, you may (or may not!) escape this reality.
 
